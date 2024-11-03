@@ -44,6 +44,8 @@ class Linear_FP_int4 {
     Matrix3D<float> scale, zero_point;
     Matrix3D<float> offset;
 
+#define IMP 0
+
 #if IMP == 0
     std::string profile_name = "reference";
 #elif IMP == 1
